@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: hovercucumber.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.223 s <<< FAILURE! - in hovercucumber.RunCucumberTest
-Movendo Hover.Movendo-se no platô  Time elapsed: 0.072 s  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.259 s <<< FAILURE! - in hovercucumber.RunCucumberTest
+Movendo Hover.Movendo-se no platô  Time elapsed: 0.08 s  <<< ERROR!
 java.lang.NullPointerException
 

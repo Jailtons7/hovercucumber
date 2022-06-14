@@ -20,7 +20,7 @@ public class StepDefinitions {
   
   @When("A Instrução de movimentação for LMLMLMLMM")
   public void a_instrucao_de_movimentacao_for_lmlmlmlmm() throws Throwable {
-    System.out.println("Canto superior direito: " + plato.getCoordenadaX() + plato.getCoordenadaY());
+    System.out.println("Canto superior direito: " + plato.getCoordenadaX() + plato.getCoordenadaY());  // null point exception aqui
     hover.move("LMLMLMLMM");
   }
   
