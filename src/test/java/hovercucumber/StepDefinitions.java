@@ -14,13 +14,13 @@ public class StepDefinitions {
 
   @Given("Um hover no estado {int} {int} N")
   public void um_hover_no_estado_n(Integer int1, Integer int2) throws Throwable {
-    Plato plato = new Plato(5, 5);
-    Hover hover = new Hover(1, 2, "N", plato);
+    this.plato = new Plato(5, 5);
+    this.hover = new Hover(1, 2, "N", plato);
   }
   
   @When("A Instrução de movimentação for LMLMLMLMM")
   public void a_instrucao_de_movimentacao_for_lmlmlmlmm() throws Throwable {
-    System.out.println("Canto superior direito: " + plato.getCoordenadaX() + plato.getCoordenadaY());  // null point exception aqui
+    // System.out.println("Canto superior direito: " + plato.getCoordenadaX() + plato.getCoordenadaY());  // null point exception aqui
     hover.move("LMLMLMLMM");
   }
   

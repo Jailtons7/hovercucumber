@@ -4,9 +4,9 @@ public class Plato {
   private int coordenadaX;
   private int coordenadaY;
 
-  Plato(int coordenadaX, int coordenadaY) {
-    setCoordenadaX(coordenadaX);
-    setCoordenadaY(coordenadaY);
+  public Plato(int coordenadaX, int coordenadaY) {
+    this.coordenadaX = coordenadaX;
+    this.coordenadaY = coordenadaY;
   }
 
   public int getCoordenadaX() {

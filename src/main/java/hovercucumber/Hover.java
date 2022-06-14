@@ -7,10 +7,10 @@ public class Hover {
   private String direcao;
 
   Hover(int coordenadaX, int coordenadaY, String direcao, Plato plato) {
-    this.setCoordenadaX(coordenadaX);
-    this.setCoordenadaY(coordenadaY);
-    this.setDirecao(direcao);
-    this.setPlato(plato);
+    this.coordenadaX = coordenadaX;
+    this.coordenadaY = coordenadaY;
+    this.direcao = direcao;
+    this.plato = plato;
   }
 
   public int getCoordenadaX() {
@@ -18,7 +18,9 @@ public class Hover {
   }
 
   public void setCoordenadaX (int coordenadaX) {
-    this.coordenadaX = coordenadaX;
+    if (coordenadaX >= 0 & coordenadaX <= this.getPlato().getCoordenadaX()) {
+      this.coordenadaX = coordenadaX;
+    }
   }
 
   public int getCoordenadaY() {
@@ -26,7 +28,9 @@ public class Hover {
   }
 
   public void setCoordenadaY (int coordenadaY) {
-    this.coordenadaY = coordenadaY;
+    if ( coordenadaY >= 0 & coordenadaY <= this.getPlato().getCoordenadaY()) {
+      this.coordenadaY = coordenadaY;
+    }
   }
 
   public String getDirecao() {
@@ -46,9 +50,46 @@ public class Hover {
   }
 
   public void move(String expressao) {
-    this.setCoordenadaX(1);
-    this.setCoordenadaY(3);
-    this.setDirecao("N");
+
+    for (int i = 0; i < expressao.length(); i++) {
+      if (expressao.charAt(i) == 'L') {
+        if (this.getDirecao() == "N") {
+          this.setDirecao("O");
+        } else if (this.getDirecao() == "O") {
+          this.setDirecao("S");
+        } else if (this.getDirecao() == "S") {
+          this.setDirecao("L");
+        } else if (this.getDirecao() == "L") {
+          this.setDirecao("N");
+        } else {
+          System.out.println("Direção inválida na expressão");
+        }
+      } else if (expressao.charAt(i) == 'R') {
+        if (this.getDirecao() == "N") {
+          this.setDirecao("L");
+        } else if (this.getDirecao() == "L") {
+          this.setDirecao("S");
+        } else if (this.getDirecao() == "S") {
+          this.setDirecao("O");
+        } else if (this.getDirecao() == "O") {
+          this.setDirecao("N");
+        } else {
+          System.out.println("Direção inválida na expressão");
+        }
+      } else if (expressao.charAt(i) == 'M') {
+        if (this.getDirecao() == "N") {
+          this.setCoordenadaY(this.getCoordenadaY() + 1);
+        } else if (this.getDirecao() == "S") {
+          this.setCoordenadaY(this.getCoordenadaY() - 1);
+        } else if (this.getDirecao() == "L") {
+          this.setCoordenadaX(this.getCoordenadaX() + 1);
+        } else if (this.getDirecao() == "O") {
+          this.setCoordenadaX(this.getCoordenadaX() - 1);
+        } else {
+          System.out.println("Direção inválida na expressão");
+        }
+      }
+    }
   }
 
   public String posicaoAtual() {
