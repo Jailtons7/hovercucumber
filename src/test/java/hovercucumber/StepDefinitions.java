@@ -6,8 +6,6 @@ import io.cucumber.java.en.When;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.jupiter.api.Assertions.*;
-
 public class StepDefinitions {
   private Hover hover;
   private Plato plato;
