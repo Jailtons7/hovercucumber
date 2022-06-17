@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="hovercucumber.RunCucumberTest" time="0.215" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="hovercucumber.RunCucumberTest" time="0.297" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BR"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/jailton/Java/hovercucumber/target/surefire/surefirebooter14523559963454196297.jar /home/jailton/Java/hovercucumber/target/surefire 2022-06-14T19-39-46_359-jvmRun1 surefire8557411022885133356tmp surefire_012565823937450202067tmp"/>
+    <property name="sun.java.command" value="/home/jailton/Java/hovercucumber/target/surefire/surefirebooter1715687157338963775.jar /home/jailton/Java/hovercucumber/target/surefire 2022-06-17T14-04-47_787-jvmRun1 surefire12920113736693814182tmp surefire_015215136228790317182tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/jailton/Java/hovercucumber/target/test-classes:/home/jailton/Java/hovercucumber/target/classes:/home/jailton/.m2/repository/io/cucumber/cucumber-java/7.0.0/cucumber-java-7.0.0.jar:/home/jailton/.m2/repository/io/cucumber/cucumber-core/7.0.0/cucumber-core-7.0.0.jar:/home/jailton/.m2/repository/io/cucumber/cucumber-gherkin/7.0.0/cucumber-gherkin-7.0.0.jar:/home/jailton/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.0.0/cucumber-gherkin-messages-7.0.0.jar:/home/jailton/.m2/repository/io/cucumber/messages/17.1.1/messages-17.1.1.jar:/home/jailton/.m2/repository/io/cucumber/tag-expressions/4.0.2/tag-expressions-4.0.2.jar:/home/jailton/.m2/repository/io/cucumber/cucumber-expressions/13.0.1/cucumber-expressions-13.0.1.jar:/home/jailton/.m2/repository/io/cucumber/datatable/7.0.0/datatable-7.0.0.jar:/home/jailton/.m2/repository/io/cucumber/cucumber-plugin/7.0.0/cucumber-plugin-7.0.0.jar:/home/jailton/.m2/repository/io/cucumber/docstring/7.0.0/docstring-7.0.0.jar:/home/jailton/.m2/repository/io/cucumber/html-formatter/17.0.0/html-formatter-17.0.0.jar:/home/jailton/.m2/repository/io/cucumber/create-meta/6.0.1/create-meta-6.0.1.jar:/home/jailton/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/jailton/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.0.0/cucumber-junit-platform-engine-7.0.0.jar:/home/jailton/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:/home/jailton/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/jailton/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/home/jailton/.m2/repository/org/junit/platform/junit-platform-suite/1.8.1/junit-platform-suite-1.8.1.jar:/home/jailton/.m2/repository/org/junit/platform/junit-platform-suite-api/1.8.1/junit-platform-suite-api-1.8.1.jar:/home/jailton/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.8.1/junit-platform-suite-engine-1.8.1.jar:/home/jailton/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.8.1/junit-platform-suite-commons-1.8.1.jar:/home/jailton/.m2/repository/org/junit/platform/junit-platform-launcher/1.8.1/junit-platform-launcher-1.8.1.jar:/home/jailton/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar:/home/jailton/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/home/jailton/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar:/home/jailton/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,12 +32,12 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/jailton/Java/hovercucumber/target/surefire/surefirebooter14523559963454196297.jar"/>
+    <property name="surefire.real.class.path" value="/home/jailton/Java/hovercucumber/target/surefire/surefirebooter1715687157338963775.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.15+10-Ubuntu-0ubuntu0.20.04.1"/>
     <property name="user.name" value="jailton"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="5.13.0-48-generic"/>
+    <property name="os.version" value="5.13.0-51-generic"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
@@ -57,12 +57,37 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="Movendo-se no platô" classname="Movendo Hover" time="0.068">
+  <testcase name="Mudar direção do norte para a esquerda" classname="Movendo Hover" time="0.1">
     <system-out><![CDATA[
-Scenario: Movendo-se no platô                    &amp#27;[90m# hovercucumber/movendo_hover.feature:4&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUm hover no estado &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m N&amp#27;[0m                 &amp#27;[90m# hovercucumber.StepDefinitions.um_hover_no_estado_n(java.lang.Integer,java.lang.Integer)&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mA Instrução de movimentação for LMLMLMLMM&amp#27;[0m &amp#27;[90m# hovercucumber.StepDefinitions.a_instrucao_de_movimentacao_for_lmlmlmlmm()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mA saída esperada deve ser &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m N&amp#27;[0m           &amp#27;[90m# hovercucumber.StepDefinitions.a_saída_esperada_deve_ser_n(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+Scenario: Mudar direção do norte para a esquerda &amp#27;[90m# hovercucumber/movendo_hover.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUm rover apontando para o norte &amp#27;[0m&amp#27;[32m&amp#27;[1m"N"&amp#27;[0m      &amp#27;[90m# hovercucumber.StepDefinitions.um_rover_apontando_paro_o_norte(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mGirar para a esquerda&amp#27;[0m                     &amp#27;[90m# hovercucumber.StepDefinitions.girar_para_a_esquerda()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mA direção esperada deve ser Oeste &amp#27;[0m&amp#27;[32m&amp#27;[1m"O"&amp#27;[0m     &amp#27;[90m# hovercucumber.StepDefinitions.a_direção_esperada_deve_ser_leste(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Mudar direção do norte para a direita" classname="Movendo Hover" time="0.017">
+    <system-out><![CDATA[
+Scenario: Mudar direção do norte para a direita &amp#27;[90m# hovercucumber/movendo_hover.feature:9&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUm rover apontando para &amp#27;[0m&amp#27;[32m&amp#27;[1m"N"&amp#27;[0m             &amp#27;[90m# hovercucumber.StepDefinitions.um_rover_apontando_para(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mGirar para a direita&amp#27;[0m                     &amp#27;[90m# hovercucumber.StepDefinitions.girar_para_a_direita()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mA direção esperada deve ser &amp#27;[0m&amp#27;[32m&amp#27;[1m"L"&amp#27;[0m          &amp#27;[90m# hovercucumber.StepDefinitions.a_direção_esperada_deve_ser(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Movendo-se no platô" classname="Movendo Hover" time="0.013">
+    <system-out><![CDATA[
+Scenario: Movendo-se no platô                      &amp#27;[90m# hovercucumber/movendo_hover.feature:14&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUm hover no estado &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"N"&amp#27;[0m                 &amp#27;[90m# hovercucumber.StepDefinitions.um_hover_no_estado(java.lang.Integer,java.lang.Integer,java.lang.String)&amp#27;[0m
+Girando pra esquerda
+Movimentando o Rover
+Girando pra esquerda
+Movimentando o Rover
+Girando pra esquerda
+Movimentando o Rover
+Girando pra esquerda
+Movimentando o Rover
+Movimentando o Rover
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mA Instrução de movimentação for &amp#27;[0m&amp#27;[32m&amp#27;[1m"LMLMLMLMM"&amp#27;[0m &amp#27;[90m# hovercucumber.StepDefinitions.a_instrução_de_movimentação_for(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mA saída esperada deve ser &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"N"&amp#27;[0m           &amp#27;[90m# hovercucumber.StepDefinitions.a_saída_esperada_deve_ser_n(java.lang.Integer,java.lang.Integer,java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
 </testsuite>
