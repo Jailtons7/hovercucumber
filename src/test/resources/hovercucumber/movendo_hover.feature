@@ -4,12 +4,42 @@ Feature: Movendo Hover
   Scenario: Mudar direção do norte para a esquerda
     Given Um rover apontando para o norte "N"
     When Girar para a esquerda
-    Then A direção esperada deve ser Oeste "O"
-  
+    Then A direção esperada deve ser "O"
+
   Scenario: Mudar direção do norte para a direita
-    Given Um rover apontando para "N"
+    Given Um rover apontando para o norte "N"
     When Girar para a direita
     Then A direção esperada deve ser "L"
+
+  Scenario: Mudar direção do leste para a esquerda
+    Given Um rover apontando para o leste "L"
+    When Girar para a esquerda
+    Then A direção esperada deve ser "N"
+
+  Scenario: Mudar direção do leste para a direita
+    Given Um rover apontando para o leste "L"
+    When Girar para a direita
+    Then A direção esperada deve ser "S"
+
+  Scenario: Mudar direção do oeste para a esquerda
+    Given Um rover apontando para o oeste "O"
+    When Girar para a esquerda
+    Then A direção esperada deve ser "S"
+
+  Scenario: Mudar direção do oeste para a direita
+    Given Um rover apontando para o oeste "O"
+    When Girar para a direita
+    Then A direção esperada deve ser "N"
+
+  Scenario: Mudar direção do sul para a esquerda
+    Given Um rover apontando para o sul "S"
+    When Girar para a esquerda
+    Then A direção esperada deve ser "L"
+
+  Scenario: Mudar direção do sul para a direita
+    Given Um rover apontando para o sul "S"
+    When Girar para a direita
+    Then A direção esperada deve ser "O"
 
   Scenario: Movendo-se no platô
     Given Um hover no estado 1 2 "N"

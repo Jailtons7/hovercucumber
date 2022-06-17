@@ -10,24 +10,26 @@ public class StepDefinitions {
   private Rover rover;
   private Plato plato = new Plato(5, 5);
   
-  // Mudar direção do norte para a esquerda
+  // Mudar direção do rover
   @Given("Um rover apontando para o norte {string}")
   public void um_rover_apontando_paro_o_norte(String string) {
+    this.rover = new Rover(1, 1, string, plato);
+  }
+  @Given("Um rover apontando para o leste {string}")
+  public void um_rover_apontando_paro_o_leste(String string) {
+    this.rover = new Rover(1, 1, string, plato);
+  }
+  @Given("Um rover apontando para o sul {string}")
+  public void um_rover_apontando_paro_o_sul(String string) {
+    this.rover = new Rover(1, 1, string, plato);
+  }
+  @Given("Um rover apontando para o oeste {string}")
+  public void um_rover_apontando_paro_o_oeste(String string) {
     this.rover = new Rover(1, 1, string, plato);
   }
   @When("Girar para a esquerda")
   public void girar_para_a_esquerda() {
     rover.girarEsquerda();
-  }
-  @Then("A direção esperada deve ser Oeste {string}")
-  public void a_direção_esperada_deve_ser_leste(String string) {
-    assertEquals(string, rover.getDirecao());
-  }
-
-  // Mudar direção do norte para a direita
-  @Given("Um rover apontando para {string}")
-  public void um_rover_apontando_para(String string) {
-    this.rover = new Rover(1, 1, string, plato);
   }
   @When("Girar para a direita")
   public void girar_para_a_direita() {
